@@ -1,4 +1,5 @@
 import React from 'react';
+import Shimmer from './Shimmer';
 import Skeleton from './Skeleton';
 import './Skeleton.css';
 
@@ -12,6 +13,7 @@ const SkeletonPosts = () => {
             <Skeleton element="text" />
             <Skeleton element="text" />
             <Skeleton element="text" />
+            <Shimmer />
         </div>
     )
 }
